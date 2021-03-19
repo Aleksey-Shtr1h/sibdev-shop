@@ -1,0 +1,7 @@
+.page-layout {
+  width: 100%;
+  height: 100vh;
+}
+
+@import './page-layout-header';
+@import './page-layout-cards';

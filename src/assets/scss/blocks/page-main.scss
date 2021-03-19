@@ -1,0 +1,24 @@
+.conatainer-page {
+  position: relative;
+
+  display: flex;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: $tableWidth) {
+  .conatainer-page {
+    display: flex;
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: $smPhoneWidth) {
+  .conatainer-page {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+  }
+}
